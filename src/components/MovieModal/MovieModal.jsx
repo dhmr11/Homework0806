@@ -15,10 +15,11 @@ export default function MovieModal({
 }){
 
     return (
-        <ModalContainer>
-            <Modal>
+        
+        <ModalContainer onClick={()=> setModalOpen(false)}>
+            <Modal >
                 <ModalCloseBtn
-                    
+                    onClick={()=>setModalOpen(false)}
                 >
                     X
                 </ModalCloseBtn>

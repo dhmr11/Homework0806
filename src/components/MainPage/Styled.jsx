@@ -149,6 +149,7 @@ margin: 0.5%;
 transition: transform 450ms;
 border-radius: 4px;
 
+
 &:hover{
     transform: scale(1.05);
 }

@@ -13,7 +13,7 @@ export const Container = styled.nav`
   align-items: center;
   transition-timing-function: ease-in;
   transition: all 0.5s;
-  background-color: ${props=>props.show == 'true' ? '#111' : null};
+  background-color: ${props => props.show == 'true' ? '#111' : null};
 `
 
 export const LogoImg = styled.img`

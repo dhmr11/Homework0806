@@ -9,8 +9,8 @@ export const Container = styled.div`
 export default function MainPage() {
   return (
     <Container>
-      {/* <Banner /> */}
-      {/* <Row
+      <Banner />
+      <Row
           title="NETFLIX ORIGINALS"
           id="NO"
           fetchUrl={requests.fetchNetflixOriginals}
@@ -20,6 +20,7 @@ export default function MainPage() {
           title="Trending Now"
           id="TN"
           fetchUrl={requests.fetchTrending}
+          
       />
       <Row 
             title="Top Rated"
@@ -35,7 +36,7 @@ export default function MainPage() {
           title="Comnedy Movies"
           id="CM"
           fetchUrl={requests.fetchComedyMovies}
-      /> */}
+      />
     </Container>
   )
 }
